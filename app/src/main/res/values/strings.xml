@@ -1,3 +1,40 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Tic Tac Toe</string>
+    <string name="x">x</string>
+    <string name="o">o</string>
+    <string name="reset">reset</string>
+    <string name="initial_score">0</string>
+    <string name="playerX_score"><xliff:g id="playerX_score" example="10">%d</xliff:g></string>
+    <string name="playerO_score"><xliff:g id="playerO_score" example="1">%d</xliff:g></string>
+    <string-array name="more_play_option">
+        <item>Game Mode</item>
+        <item>Play with Computer</item>
+        <item>5*5 board</item>
+    </string-array>
+    <string-array name="more_play_option_comp">
+        <item>Game Mode</item>
+        <item>Play with a Friend</item>
+        <item>5*5 board</item>
+    </string-array>
+    <string-array name="more_play_option_5x5_human">
+        <item>Game Mode</item>
+        <item>Play with Me</item>
+        <item>3*3 Grid</item>
+    </string-array>
+    <string name="play_with_me">Play with Me</string>
+    <string name="three_three">3*3 Grid</string>
+    <string name="play_with_comp">Play with Computer</string>
+    <string name="play_with_friend">Play with a Friend</string>
+
+    <string name="five_five">5*5 board</string>
+    <string name="game_mode">Game Mode</string>
+    <string name="empty_string"> </string>
+    <string name="game_start">Start Game</string>
+    <string name="game_draw">Game Draw</string>
+    <string name="you_win">You Win</string>
+    <string name="computer_win">Ha Ha Ha I Win!!!</string>
+    <string name="status_computer_thinking">I am thinking</string>
+    <string name="status_your_move">Your Turn</string>
+    <string name="play_again">Play Again</string>
+
 </resources>

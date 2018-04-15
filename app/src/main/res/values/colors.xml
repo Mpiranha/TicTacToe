@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="playerX_color">#505050</color>
+    <color name="playerO_color">#000000</color>
+    <color name="victory_white">#ffffff</color>
+    <color name="initial_button">#908e3131</color>
 </resources>

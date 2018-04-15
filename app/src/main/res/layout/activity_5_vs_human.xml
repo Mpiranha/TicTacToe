@@ -12,6 +12,7 @@
         android:layout_height="60dp"
         android:orientation="horizontal"
         card_view:cardBackgroundColor="#BCBCBC">
+
         <ImageView
             android:layout_width="50dp"
             android:layout_height="wrap_content"
@@ -26,7 +27,7 @@
             android:layout_gravity="start"
             android:layout_marginLeft="50dp"
             android:layout_marginStart="50dp"
-             />
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -136,43 +137,61 @@
             android:text=""
             android:textColor="@color/cardview_light_background"
             android:textSize="20sp" />
-
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
         <TableLayout
             android:id="@+id/table_tic_tac"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
-            android:stretchColumns="3">
+            android:stretchColumns="5">
 
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:gravity="center_horizontal">
 
                 <Button
                     android:id="@+id/text00"
-                    style="@style/Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:text=""
                     android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/text01"
-                    style="@style/Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:text=""
                     android:textColor="@android:color/black" />
 
 
                 <Button
                     android:id="@+id/text02"
-                    style="@style/Button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text03"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text04"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:text=""
                     android:textColor="@android:color/black"
 
@@ -185,12 +204,13 @@
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="8dp">
 
                 <Button
                     android:id="@+id/text10"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
@@ -198,7 +218,8 @@
 
                 <Button
                     android:id="@+id/text11"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
@@ -206,22 +227,41 @@
 
                 <Button
                     android:id="@+id/text12"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
                     android:textColor="@android:color/black" />
+                <Button
+                    android:id="@+id/text13"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text14"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    />
 
             </TableRow>
 
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="8dp">
 
                 <Button
                     android:id="@+id/text20"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=""
@@ -229,19 +269,140 @@
 
                 <Button
                     android:id="@+id/text21"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="" />
 
                 <Button
                     android:id="@+id/text22"
-                    style="@style/Button"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="" />
+
+                <Button
+                    android:id="@+id/text23"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text24"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/text30"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/text31"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+
+                <Button
+                    android:id="@+id/text32"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text33"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text34"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/text40"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/text41"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+
+                <Button
+                    android:id="@+id/text42"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text43"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <Button
+                    android:id="@+id/text44"
+                    android:textSize="50sp"
+                    style="@style/Button_5"
+                    android:text=""
+                    android:textColor="@android:color/black"
+
+                    />
+
+
             </TableRow>
         </TableLayout>
+        </ScrollView>
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/reset_button"
